@@ -8,6 +8,8 @@ A curated list of papers that **define, analyze, or evaluate geospatial embeddin
 
 > This list intentionally excludes generic pretraining or downstream models where embeddings are incidental.
 
+> **Note:** In this list, the *Dataset* column refers to publicly released **embedding datasets or products**, not the datasets used for model training or inference.
+
 ---
 
 ## 📖 1. Surveys and Concept Papers
@@ -25,32 +27,32 @@ A curated list of papers that **define, analyze, or evaluate geospatial embeddin
 *Methods that learn embeddings for coordinates, regions, or spatial contexts.*
 
 
-| Abbr. | Title | Publication | Paper | Code |
-|-------|--------|-------------|--------|------|
-| **GeoCLIP** | **GeoCLIP: Clip-Inspired Alignment between Locations and Images for Effective Worldwide Geo-localization** | NeurIPS 2023 | [GeoCLIP](https://arxiv.org/abs/2309.16020) | [Code](https://github.com/VicenteVivan/geo-clip) |
-| **LocationEncoder** | **Geographic Location Encoding with Spherical Harmonics and Sinusoidal Representation Networks** | ICLR 2024 | [LocationEncoder](https://arxiv.org/abs/2310.06743) | [Code](https://github.com/marccoru/locationencoder) |
-| **SatCLIP** | **SatCLIP: Global, General-Purpose Location Embeddings with Satellite Imagery** | AAAI 2025 | [SatCLIP](https://ojs.aaai.org/index.php/AAAI/article/view/32457) | [Code](https://github.com/microsoft/satclip) |
+| Abbr. | Title | Publication | Paper | Code | Dataset |
+|-------|--------|-------------|--------|------|------|
+| **GeoCLIP** | **GeoCLIP: Clip-Inspired Alignment between Locations and Images for Effective Worldwide Geo-localization** | NeurIPS 2023 | [GeoCLIP](https://arxiv.org/abs/2309.16020) | [Code](https://github.com/VicenteVivan/geo-clip) | null |
+| **LocationEncoder** | **Geographic Location Encoding with Spherical Harmonics and Sinusoidal Representation Networks** | ICLR 2024 | [LocationEncoder](https://arxiv.org/abs/2310.06743) | [Code](https://github.com/marccoru/locationencoder) | null |
+| **SatCLIP** | **SatCLIP: Global, General-Purpose Location Embeddings with Satellite Imagery** | AAAI 2025 | [SatCLIP](https://ojs.aaai.org/index.php/AAAI/article/view/32457) | [Code](https://github.com/microsoft/satclip) | null |
 
 
 ---
 ## 🖼 3. Product Embeddings
 *Methods that embed or represent individual data products into latent spaces suitable for geospatial analysis.*
 
-| Abbr. | Title | Publication | Paper | Code |
-|-------|--------|-------------|--------|------|
-| **CLAY Embeddings** | **Clay Model v0 Embeddings** | Source Cooperative 2024 | [Dataset](https://source.coop/clay/clay-model-v0-embeddings) | [Code](https://github.com/Clay-foundation) |
-| **Major TOM Embeddings** | **Global and Dense Embeddings of Earth: Major TOM Floating in the Latent Space** | Arxiv 2024 | [Arxiv Paper]([https://arxiv.org/abs/2506.20380](https://arxiv.org/abs/2412.05600)](https://source.coop/earthgenome/earthindexembeddings)) | [Code](https://github.com/ESA-PhiLab/Major-TOM) |
-| **Earth Genome Embeddings** | **Embeddings for all** | [Medium 2025](https://medium.com/earthrisemedia/embeddings-for-all-0e0a29415b26) (Dataset on Source Cooperative) | [Dataset](https://source.coop/earthgenome/earthindexembeddings) | null |
+| Abbr. | Title | Publication | Paper | Code | Dataset |
+|-------|--------|-------------|--------|------|------|
+| **CLAY Embeddings** | **Clay Model v0 Embeddings** | Source Cooperative 2024 | null | [Code](https://github.com/Clay-foundation) | [Dataset](https://source.coop/clay/clay-model-v0-embeddings) |
+| **Major TOM Embeddings** | **Global and Dense Embeddings of Earth: Major TOM Floating in the Latent Space** | Arxiv 2024 | [Arxiv Paper](https://arxiv.org/abs/2412.05600) | [Code](https://github.com/ESA-PhiLab/Major-TOM) | [Dataset](https://huggingface.co/Major-TOM) |
+| **Earth Genome Embeddings** | **Embeddings for all** | null | [Medium 2025](https://medium.com/earthrisemedia/embeddings-for-all-0e0a29415b26) | null | [Dataset](https://source.coop/earthgenome/earthindexembeddings) |
 
 
 ## ⏱️ 4. Temporal / Time-Series Embeddings
 *Methods that embed or represent temporal sequences (e.g., satellite time-series) into latent spaces suitable for geospatial analysis.*
 
-| Abbr. | Title | Publication | Paper | Code |
-|-------|--------|-------------|--------|------|
-|**PRESTO**| Lightweight, Pre-trained Transformers for Remote Sensing Timeseries | Arxiv 2023 | [PRESTO](https://arxiv.org/abs/2304.14065) | [Code](https://github.com/nasaharvest/presto) |
-| **TESSERA** | **TESSERA: Precomputed FAIR Global Pixel Embeddings for Earth Representation and Analysis** | Arxiv 2025 | [TESSERA](https://arxiv.org/abs/2506.20380) | null |
-| **AlphaEarth** | **AlphaEarth Foundations: An embedding field model for accurate and efficient global mapping from sparse label data** | Arxiv 2025 | [AlphaEarth](https://arxiv.org/abs/2507.22291) | [Google Satellite Embedding](https://developers.google.com/earth-engine/datasets/catalog/GOOGLE_SATELLITE_EMBEDDING_V1_ANNUAL) |
+| Abbr. | Title | Publication | Paper | Code | Dataset |
+|-------|--------|-------------|--------|------|------|
+|**PRESTO**| **Lightweight, Pre-trained Transformers for Remote Sensing Timeseries** | Arxiv 2023 | [PRESTO](https://arxiv.org/abs/2304.14065) | [Code](https://github.com/nasaharvest/presto) | null |
+| **TESSERA** | **TESSERA: Precomputed FAIR Global Pixel Embeddings for Earth Representation and Analysis** | Arxiv 2025 | [TESSERA](https://arxiv.org/abs/2506.20380) | [Code](https://github.com/ucam-eo/tessera) | [Python Library](https://github.com/ucam-eo/geotessera) |
+| **AlphaEarth** | **AlphaEarth Foundations: An embedding field model for accurate and efficient global mapping from sparse label data** | Arxiv 2025 | [AlphaEarth](https://arxiv.org/abs/2507.22291) | null | [Google Satellite Embedding](https://developers.google.com/earth-engine/datasets/catalog/GOOGLE_SATELLITE_EMBEDDING_V1_ANNUAL) |
 
 ---
 
@@ -60,8 +62,8 @@ A curated list of papers that **define, analyze, or evaluate geospatial embeddin
 
 | Abbr. | Title | Publication | Paper | Code / Benchmark |
 |-------|--------|-------------|--------|------------------|
-| **NeuCo-Bench** | **NeuCo-Bench: A Novel Benchmark Framework for Neural Embeddings in Earth Observation** | Arxiv 2025 | [NeuCo-Bench](https://arxiv.org/abs/2510.17914) | [Code](https://github.com/embed2scale/NeuCo-Bench) |
-| **GeoINRID** | **Measuring the Intrinsic Dimension of Earth Representations** | Arxiv 2025 | [GeoINRID](https://arxiv.org/abs/2511.02101) | [Code](https://github.com/arjunarao619/GeoINRID) |
+| **NeuCo-Bench** | **NeuCo-Bench: A Novel Benchmark Framework for Neural Embeddings in Earth Observation** | Arxiv 2025 | [NeuCo-Bench](https://arxiv.org/abs/2510.17914) | [Code](https://github.com/embed2scale/NeuCo-Bench) | null |
+| **GeoINRID** | **Measuring the Intrinsic Dimension of Earth Representations** | Arxiv 2025 | [GeoINRID](https://arxiv.org/abs/2511.02101) | [Code](https://github.com/arjunarao619/GeoINRID) | [AlphaEarth on S2-100K dataset](https://drive.google.com/drive/folders/1USlgi7nRMqnsiJebLI4cplknVt9jWhpU?usp=sharing) |
 
 ---
 
@@ -118,6 +120,8 @@ A curated list of papers that **define, analyze, or evaluate geospatial embeddin
 |-------|--------|-------------|--------|------|
 | - | **The Potential of Copernicus Satellites for Disaster Response: Retrieving Building Damage from Sentinel-1 and Sentinel-2** | Arxiv 2025 | [Paper](https://arxiv.org/abs/2511.05461) | [Code](https://github.com/olidietrich/xbd-s12) |
 | - | **Landslide Hazard Mapping with Geospatial Foundation Models: Geographical Generalizability, Data Scarcity, and Band Adaptability** | Arxiv 2025 | [Paper](https://arxiv.org/abs/2511.04474) | null |
+| - | **On the Generalizability of Foundation Models for Crop Type Mapping** | IGARSS 2025 | [Paper](https://arxiv.org/abs/2409.09451) | [Code](https://github.com/yichiac/crop-type-transfer-learning) |
+
 
 ---
 
