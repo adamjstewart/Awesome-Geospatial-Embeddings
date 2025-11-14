@@ -57,6 +57,7 @@ A curated list of papers that **define, analyze, or evaluate geospatial embeddin
 | **Copernicus-FM** | **Towards a Unified Copernicus Foundation Model for Earth Vision** | ICCV 2025 Oral | [Copernicus-FM](https://arxiv.org/abs/2503.11849) | [Code](https://github.com/zhu-xlab/Copernicus-FM) | [Copernicus-Embed-025deg](https://huggingface.co/datasets/wangyi111/Copernicus-Embed-025deg) |
 | **TESSERA** | **TESSERA: Precomputed FAIR Global Pixel Embeddings for Earth Representation and Analysis** | Arxiv 2025 | [TESSERA](https://arxiv.org/abs/2506.20380) | [Code](https://github.com/ucam-eo/tessera) | [Python Library](https://github.com/ucam-eo/geotessera) |
 | **AlphaEarth** | **AlphaEarth Foundations: An embedding field model for accurate and efficient global mapping from sparse label data** | Arxiv 2025 | [AlphaEarth](https://arxiv.org/abs/2507.22291) | null | [Google Satellite Embedding](https://developers.google.com/earth-engine/datasets/catalog/GOOGLE_SATELLITE_EMBEDDING_V1_ANNUAL) |
+| **OlmoEarth** | **OlmoEarth** | Technical Report | [OlmoEarth](https://www.datocms-assets.com/64837/1762355216-olmoearth_v2.pdf) | [Code](https://github.com/allenai/olmoearth_pretrain) | [Python Library](https://github.com/allenai/rslearn/blob/master/docs/examples/OlmoEarthEmbeddings.md) |
 
 ---
 
@@ -96,16 +97,19 @@ A curated list of papers that **define, analyze, or evaluate geospatial embeddin
 <!-- *Representation learning or foundation model papers that produce embeddings but are not embedding-centric.* -->
 *Broader studies on representation learning and multimodal embeddings that provide conceptual context for geospatial embedding research.*  
 
-### 🛰️ 7.1 Remote Sensing Representation Learning  
-*Selected examples of representation learning works in EO and remote sensing.*
+### 🛰️ 8.1 Remote Sensing Representation Learning  
+<!-- *Selected examples of representation learning works in EO and remote sensing.* -->
+*Representative works on large-scale or foundational representation learning in Earth observation — including early frameworks and recent foundation models.*
 
 > For a more comprehensive collection of remote sensing foundation models, see  
 > **[Awesome Remote Sensing Foundation Models](https://github.com/Jack-bo1220/Awesome-Remote-Sensing-Foundation-Models)**.
 
 | Abbr. | Title | Publication | Paper | Code |
 |-------|--------|-------------|--------|------|
+| **MOSAIKS** | **A generalizable and accessible approach to machine learning with global satellite imagery** | Nature Comm. 2021 | [MOSAIKS](https://www.nature.com/articles/s41467-021-24638-z) | [Code](https://github.com/Global-Policy-Lab/mosaiks-paper) |
 | **SeCo** | **Seasonal Contrast: Unsupervised Pre-Training from Uncurated Remote Sensing Data** | ICCV 2021 | [SeCo](https://arxiv.org/abs/2103.16607) | [Code](https://github.com/ServiceNow/seasonal-contrast) |
 | **SatMAE** | **SatMAE: Pre-training Transformers for Temporal and Multi-Spectral Satellite Imagery** | NeurIPS 2022 | [SatMAE](https://arxiv.org/abs/2207.08051) | [Code](https://github.com/sustainlab-group/SatMAE) |
+| **Galileo** | **Galileo: Learning Global & Local Features of Many Remote Sensing Modalities** | ICML 2025 | [Galileo](https://arxiv.org/abs/2502.09356) | [Code](https://github.com/nasaharvest/galileo) |
 | **GAIR** | **GAIR: Improving Multimodal Geo-Foundation Model with Geo-Aligned Implicit Representations** | Arxiv 2025 | [GAIR](https://arxiv.org/abs/2503.16683) | null |
 
 ### 🔄 8.2 General Multimodal Embedding and Modality Gap Studies  
