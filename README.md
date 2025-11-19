@@ -57,7 +57,7 @@ A curated list of papers that **define, analyze, or evaluate geospatial embeddin
 | **Copernicus-FM** | **Towards a Unified Copernicus Foundation Model for Earth Vision** | ICCV 2025 Oral | [Copernicus-FM](https://arxiv.org/abs/2503.11849) | [Code](https://github.com/zhu-xlab/Copernicus-FM) | [Copernicus-Embed-025deg](https://huggingface.co/datasets/wangyi111/Copernicus-Embed-025deg) |
 | **TESSERA** | **TESSERA: Precomputed FAIR Global Pixel Embeddings for Earth Representation and Analysis** | Arxiv 2025 | [TESSERA](https://arxiv.org/abs/2506.20380) | [Code](https://github.com/ucam-eo/tessera) | [Python Library](https://github.com/ucam-eo/geotessera) |
 | **AlphaEarth** | **AlphaEarth Foundations: An embedding field model for accurate and efficient global mapping from sparse label data** | Arxiv 2025 | [AlphaEarth](https://arxiv.org/abs/2507.22291) | null | [Google Satellite Embedding](https://developers.google.com/earth-engine/datasets/catalog/GOOGLE_SATELLITE_EMBEDDING_V1_ANNUAL) |
-| **OlmoEarth** | **OlmoEarth** | Technical Report | [OlmoEarth](https://www.datocms-assets.com/64837/1762355216-olmoearth_v2.pdf) | [Code](https://github.com/allenai/olmoearth_pretrain) | [Python Library](https://github.com/allenai/rslearn/blob/master/docs/examples/OlmoEarthEmbeddings.md) |
+| **OlmoEarth** | **OlmoEarth** | Arxiv 2025 | [OlmoEarth](https://arxiv.org/abs/2511.13655) | [Code](https://github.com/allenai/olmoearth_pretrain) | [Python Library](https://github.com/allenai/rslearn/blob/master/docs/examples/OlmoEarthEmbeddings.md) |
 
 ---
 
